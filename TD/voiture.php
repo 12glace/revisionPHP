@@ -30,16 +30,16 @@ function getImmat() {
     return $this->immatriculation;
 }
 
- // un constructeur
- public function __construct($m, $c, $i) {
- $this->marque = $m;
- $this->couleur = $c;
- $this->immatriculation = $i;
- }
-
  // une methode d'affichage.
  public function afficher() {
- // À compléter dans le prochain exercice
+ 
+    $voiture=
+    [
+        'marque'=>$this->marque,
+        'couleur'=>$this->couleur,
+        'immatriculation'=>$this->immatriculation
+    ];
+    return $voiture;
  }
 }
 ?>
