@@ -7,7 +7,7 @@
     <title> Mon premier php </title>
 </head>
 
-<form method="get" action="creerVoiture.php">
+<form method="POST" action="creerVoiture.php">
  <fieldset>
  <legend>Mon formulaire :</legend>
  <p>
