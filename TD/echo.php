@@ -8,12 +8,29 @@
 </head>
 
  <body>
- Voici le résultat du script PHP :
- <?php
- 
- $texte = "hello mum !";
+ <!-- Voici le résultat du script PHP : -->
+ <?php 
 
- echo $texte;
+#EXO 2
+//  $texte = "hello mum !";
+//  echo $texte;
+
+#EXO 4
+// $prenom = "Marc";
+// echo "Bonjour " . $prenom;
+// echo "Bonjour $prenom";
+// echo 'Bonjour $prenom';
+// echo $prenom;
+// echo "$prenom";
+
+#EXO 5
+$marque ='Fiat';
+$couleur = 'rouge' ;
+$immatriculation = '3451 QM 86';
+
+echo "<p> Voiture $immatriculation de marque $marque (couleur $couleur) </p>";
+
+
  ?>
  </body>
 </html> 
